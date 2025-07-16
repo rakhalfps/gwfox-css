@@ -1,40 +1,79 @@
-<picture>
-<source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/d7699474-d17b-4560-a9d6-9e1ecaac0ba5">
-<source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/90f88774-2886-4a02-aae8-6814f3199adb">
-<img width="1495" alt="01">
-</picture>
-<br><br>
+# gwfox: Minimal Elegance for Firefox
 
-- 本主题适用Firefox 138+ `Mac` `Win` *
+**gwfox** is a lightweight, modern UI customization for **Firefox 138+**, designed to offer a cleaner, distraction-free browsing experience.  
+Fully compatible with **macOS** and **Windows**, including native **Mica integration** on **Windows 11**.
 
-## 使用方法
+<p align="center">
+  <img src="https://github.com/rakhalfps/gwfox-css/blob/a48c59d71b99a00244582478ce7df9ab29cbfebe/Media/PREVIEW.png?raw=true" alt="gwfox preview" width="750"/>
+</p>
 
-- 把下载的 `chrome` 文件夹放入火狐 `配置文件夹` 内
+---
 
-- 在 `about:config` 页面中搜索以下布尔值切换为 `true`
+## 🛠️ Installation
 
-  - `toolkit.legacyUserProfileCustomizations.stylesheets`
+1. **Download** this repository as a ZIP or clone it.
+2. Open your Firefox **profile directory**:
+   - Visit `about:support` in the address bar.
+   - Click **"Open Folder"** next to **"Profile Directory"**.
+3. Copy the `chrome` folder and `user.js` file into your profile directory.
+   - Overwrite existing files if prompted.
+4. **Restart Firefox**.
 
-  - `svg.context-properties.content.enabled`
- 
-  - `widget.windows.mica` *
- 
-  - `widget.windows.mica.toplevel-backdrop` 设为 `2` *
- 
-- 以下布尔值切换为 `false`
-  
-  - `sidebar.animation.enabled`
- 
-  - `widget.macos.native-context-menus` (可选项)
+> ✅ Your profile folder should now include:  
+> - `/chrome/userChrome.css`  
+> - `/chrome/userContent.css`  
+> - `user.js`
 
-- 重启火狐
+---
 
-## 样式调整
+## ⚙️ Configuration
 
-- 书签工具栏隐藏至底部，地址栏置于侧栏，简洁模式，macOS样式窗口控件 * 等
+Open `about:config` in Firefox and modify the following preferences:
 
-  在 `about:config` 页面添加 `gwfox.plus` 布尔值设为 `true` 启用
+### Set to `true`
+- `toolkit.legacyUserProfileCustomizations.stylesheets`
+- `svg.context-properties.content.enabled`
+- `widget.windows.mica` *(Windows only)*
+- `widget.windows.mica.toplevel-backdrop` → `2`
 
-## 样式展示
-  
-[01.webm](https://github.com/user-attachments/assets/0f24f538-67eb-42e2-a483-b4a8a8e75603)
+### Set to `false`
+- `sidebar.animation.enabled`
+- `widget.macos.native-context-menus` *(optional on macOS)*
+
+Restart Firefox to apply changes.
+
+---
+
+## ✨ Optional Enhancements
+
+Unlock additional macOS-inspired layout refinements:
+
+- Address bar moved to sidebar  
+- Bookmarks bar hidden at the bottom  
+- Compact layout with macOS-style window controls
+
+To enable:
+1. Open `about:config`
+2. Add a new Boolean preference:
+   - Name: `gwfox.plus`
+   - Value: `true`
+
+---
+
+## 🙏 Credits
+
+This customization is based on the original [gwfox](https://github.com/akkva/gwfox) by **@akkva**.  
+This version builds on it with refined layouts and aesthetic improvements.
+
+---
+
+## 🎥 Live Demo (WebM Preview)
+
+<p align="center">
+  <video width="750" autoplay loop muted playsinline>
+    <source src="https://github.com/rakhalfps/gwfox-css/blob/a48c59d71b99a00244582478ce7df9ab29cbfebe/Media/Preview.webm?raw=true" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+---
