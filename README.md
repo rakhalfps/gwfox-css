@@ -67,13 +67,4 @@ This version builds on it with refined layouts and aesthetic improvements.
 
 ---
 
-## 🎥 Live Demo (WebM Preview)
-
-<p align="center">
-  <video width="750" autoplay loop muted playsinline>
-    <source src="https://github.com/user-attachments/assets/193190a8-9bbe-4c23-818b-508e9927f636" type="video/webm">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
----
+[▶️ Click here to view the WebM demo](https://github.com/user-attachments/assets/193190a8-9bbe-4c23-818b-508e9927f636)
