@@ -1,4 +1,4 @@
-# gwfox: Minimal Elegance for Firefox
+# gwfox: Minimal Elegance for Firefox (Unofficial)
 
 **gwfox** is a lightweight, modern UI customization for **Firefox 138+**, designed to offer a cleaner, distraction-free browsing experience.  
 Fully compatible with **macOS** and **Windows**, including native **Mica integration** on **Windows 11**.
